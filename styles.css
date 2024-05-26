@@ -1,0 +1,39 @@
+body {
+  background: #ccc;
+}
+#Header a:hover {
+  color: #fff;
+}
+#bg-img {
+  background: url("images/bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+i {
+  color: white;
+}
+#about {
+  margin-top: -200px;
+}
+#about span,
+#skills span,
+#experience span,
+#contact span {
+  padding: 10px 20px 10px 20px;
+}
+#about hr,
+#skills hr,
+#experience hr,
+#contact hr {
+  border-width: 5px;
+  margin-top: 6px;
+}
+@media only screen and (max-width: 450px) {
+  #about {
+    margin-top: -350px;
+  }
+  .about-name {
+    font-size: 21px;
+  }
+}

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!----NAVIGATION-->
+    <div id="Header">
+      <nav
+        class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top"
+        id="navbar"
+      >
+        <!-- <div class="container">
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#Navbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="#" class="navbar-brand"><h3>Portfolio</h3></a>
+          <div class="collapse navbar-collapse" id="Navbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#aboutMe"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div id="bg-img"></div>
+
+    <!----ABOUT ME-->
+    <div id="about">
+      <!-- <div class="container">
+        <div class="row">
+          <div class="col">
+            <div id="AboutData">
+              <div class="card bg-white">
+                <div class="card-title my-5">
+                  <div class="media">
+                    <img
+                      src="images/profilepic.avif"
+                      alt="profile"
+                      width="250"
+                      height="250"
+                      class="img-fluid rounded-top mx-5 d-none d-lg-block"
+                    />
+                    <div class="media-body">
+                      <h3 class="display-4 ml-5">Mahamaya Mallya</h3>
+                      <p class="text-muted ml-5">Web Developer & Vlogger</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    <div class="card-body m-5">
+              <h5 class="card-title display-4">Mahamaya Mallya</h5>
+              <p class="card-text">Web Developer & Blogger</p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Last updated 3 mins ago</small
+                >
+              </p>
+              <table class="table table-responsive table-custom-bg">
+                <tr>
+                  <td class="text-muted">Email</td>
+                  <td>:</td>
+                  <td>mahamayamallya4@gmail.com</td>
+                </tr>
+                <tr>
+                  <td class="text-muted">Website</td>
+                  <td>:</td>
+                  <td>
+                    <a href="https://mahamayamallya.in">mahamayamallya.in</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-muted">Phone</td>
+                  <td>:</td>
+                  <td>+91 9148896xxx</td>
+                </tr>
+              </table>
+            </div>  
+    </div> -->
+      <div class="container">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4 pt-4">
+              <img
+                src="images/profilepic.avif"
+                alt="profile"
+                width="250"
+                height="250"
+                class="img-fluid rounded-top mx-5 d-none d-lg-block"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body m-5">
+                <h5 class="card-title display-4 about-name">Mahamaya Mallya</h5>
+                <p class="card-text">Web Developer & Blogger</p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 3 mins ago</small
+                  >
+                </p>
+                <table class="table table-responsive">
+                  <tr>
+                    <td class="text-muted">Email</td>
+                    <td>:</td>
+                    <td>
+                      <a href="mailto:mahamayamallya4@example.com">Mahamaya</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-muted">Website</td>
+                    <td>:</td>
+                    <td>
+                      <a href="https://mahamayamallya.in">mahamayamallya.in</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="text-muted">Phone</td>
+                    <td>:</td>
+                    <td>+91 9148896xxx</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer bg-dark text-center">
+            <a href="https://www.linkedin.com/in/mahamaya-mallya-51052b190/"
+              ><i class="bi bi-linkedin mx-5"></i
+            ></a>
+            <a href="https://mahamayamallya.github.io/Portfolio/"
+              ><i class="bi bi-browser-chrome mx-5"></i
+            ></a>
+            <a href="https://www.youtube.com/@SMM27"
+              ><i class="bi bi-youtube mx-5"></i
+            ></a>
+            <a href="https://github.com/Mahamayamallya"
+              ><i class="bi bi-github mx-5"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5" id="aboutMe">
+        <div class="row">
+          <div class="col">
+            <span class="bg-danger text-white">About Me</span>
+            <hr class="text-danger" />
+            <p class="lead-text-justify">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
+              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+              velit, sed quia non numquam eius modi tempora incidunt ut labore
+              et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+              veniam, quis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----SKILLS-->
+    <div id="skills" class="mt-5">
+      <div class="container">
+        <span class="bg-primary text-white">My Skills</span>
+        <hr class="text-primary" />
+        <div class="row">
+          <div class="col">
+            <div class="card bg-white px-3">
+              <h5 class="ml-5 my-3">HTML5</h5>
+              <div class="progress ml-3">
+                <div class="progress-bar bg-secondary" style="width: 95%">
+                  95%
+                </div>
+              </div>
+              <h5 class="ml-5 my-3">CSS</h5>
+              <div class="progress ml-3">
+                <div class="progress-bar bg-secondary" style="width: 93%">
+                  93%
+                </div>
+              </div>
+              <h5 class="ml-5 my-3">HTML5</h5>
+              <div class="progress ml-3">
+                <div class="progress-bar bg-secondary" style="width: 96%">
+                  96%
+                </div>
+              </div>
+              <h5 class="ml-5 my-3">CSS</h5>
+              <div class="progress ml-3">
+                <div class="progress-bar bg-secondary" style="width: 93%">
+                  93%
+                </div>
+              </div>
+              <h5 class="ml-5 my-3">SFCC</h5>
+              <div class="progress ml-3">
+                <div class="progress-bar bg-secondary" style="width: 80%">
+                  80%
+                </div>
+              </div>
+              <h5 class="ml-5 my-3">Bootstrap</h5>
+              <div class="progress ml-3">
+                <div class="progress-bar bg-secondary" style="width: 90%">
+                  90%
+                </div>
+              </div>
+              <h5 class="ml-5 my-3">Javascript</h5>
+              <div class="progress ml-3">
+                <div class="progress-bar bg-secondary" style="width: 90%">
+                  90%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------EXPERIENCE----->
+    <div id="experience">
+      <div class="container mt-5">
+        <span class="bg-success text-white">Experience</span>
+        <hr class="text-success mb-5" />
+        <div class="row">
+          <div class="col-lg-6 mb-5">
+            <div class="card bg-white">
+              <img
+                src="images/betsol.png"
+                width="200"
+                height="80"
+                class="img-fluid m-auto py-3"
+              />
+              <h3 class="text-center">Associate Software Engineer</h3>
+              <p class="lead m-auto p-3">
+                Led initiatives in constructing and managing SEO-friendly
+                WordPress blogs, posts, and websites Tailored plugins through
+                research, enhancing site functionality to meet the design
+                specifications. Engaged in cross-functional collaboration,
+                drawing insights from multiple departments and contributing to a
+                streamlined hiring process.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-5">
+            <div class="card bg-white">
+              <img
+                src="images/HBC.png"
+                width="200"
+                height="80"
+                class="img-fluid m-auto py-3"
+              />
+              <h3 class="text-center">Software Engineer Trainee</h3>
+              <p class="lead m-auto p-3">
+                SFCC developer experienced in JavaScript, ISML and CSS. Worked
+                on enhancing payment security, CVV validation, tax handling, and
+                promotional features. Successfully integrated free shipping
+                functionality on The Bay website. Facilitated seamless teamwork
+                by actively sharing progress with the team through platforms
+                like JIRA, Slack, and GitHub.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 mb-5">
+            <div class="card bg-white">
+              <img
+                src="images/inmovidu.jfif"
+                width="200"
+                height="80"
+                class="img-fluid m-auto py-3"
+              />
+              <h3 class="text-center">Business Development Executive Intern</h3>
+              <p class="lead m-auto p-3">
+                Effectively managed daily project coordination, planning, and
+                execution. Utilized analytical insights to establish targets and
+                foster team motivation to meet the targets. Addressed and
+                resolved over 40 client queries.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--------CONTACT------>
+    <div id="contact">
+      <div class="container mt-5">
+        <span class="bg-dark text-white">Contact Me </span>
+        <hr class="text-dark" />
+        <div class="row">
+          <div class="col">
+            <div class="card bg-white">
+              <div class="card-header">
+                <h4 class="my-4">Let's Connect</h4>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    placeholder="User Name"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group mt-2">
+                  <input
+                    type="text"
+                    placeholder="User Email"
+                    class="form-control"
+                  />
+                </div>
+                <div class="form-group mt-2">
+                  <textarea
+                    class="form-control"
+                    placeholder="Drop a message.."
+                  ></textarea>
+                </div>
+                <div class="form-group mt-2">
+                  <button class="btn btn-success text-white">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------FOOTER----------->
+    <div class="container-fluid mt-3 bg-dark text-white">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-2 text-center">
+            <p>Website By Mahamaya Mallya</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
